@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "test": "npm run build && jest"
+    "test": "npm run build && jest",
+    "test-1": "npm run test -- -t \"Level 1\"",
+    "test-2": "npm run test -- -t \"Level 2\"",
+    "test-3": "npm run test -- -t \"Level 3\""
   },
   "repository": {
     "type": "git",
